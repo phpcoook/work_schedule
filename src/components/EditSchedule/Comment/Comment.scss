@@ -1,0 +1,9 @@
+.editableComment{
+    input, input:focus{
+        display: inline-block;
+        border: none;
+        outline: none;
+        padding: 0px;
+        width: 80%;
+    }
+}

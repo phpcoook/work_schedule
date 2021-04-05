@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerticalMenu should render VerticalMenu correctly 1`] = `
+<div
+  className="VerticalMenu"
+>
+  <Menu
+    className="VerticalMenu__menu"
+    defaultOpenKeys={
+      Array [
+        "sub1",
+      ]
+    }
+    defaultSelectedKeys={
+      Array [
+        "My Activities",
+      ]
+    }
+    mode="inline"
+    onSelect={[Function]}
+    theme="dark"
+  >
+    <MenuItem
+      className="VerticalMenu__menu__menu-item"
+      icon={<ForwardRef(ClockCircleOutlined) />}
+      key="My Activities"
+    >
+      My Activities
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item"
+      disabled={true}
+      icon={<ForwardRef(AuditOutlined) />}
+      key="Reports"
+    >
+      Reports
+      <ForwardRef(ExclamationCircleFilled)
+        className="VerticalMenu__menu__menu-item__righthand-icon"
+      />
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item"
+      disabled={true}
+      icon={<ForwardRef(CalendarOutlined) />}
+      key="Schedule"
+    >
+      Schedule
+    </MenuItem>
+    <hr />
+    <MenuItem
+      className="VerticalMenu__menu__menu-item read-only"
+      disabled={true}
+      key="ACTIVITIES"
+    >
+      ACTIVITIES
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item"
+      disabled={true}
+      key="Inbox"
+    >
+      Inbox
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item VerticalMenu__menu__menu-item--activities"
+      key="Project 1"
+    >
+      Project 1
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item VerticalMenu__menu__menu-item--activities"
+      key="Project 2"
+    >
+      Project 2
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item VerticalMenu__menu__menu-item--activities"
+      key="Project 3"
+    >
+      Project 3
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item VerticalMenu__menu__menu-item--activities"
+      key="Project 4"
+    >
+      Project 4
+    </MenuItem>
+    <MenuItem
+      className="VerticalMenu__menu__menu-item VerticalMenu__menu__menu-item--activities"
+      key="Project 5"
+    >
+      Project 5
+    </MenuItem>
+  </Menu>
+</div>
+`;

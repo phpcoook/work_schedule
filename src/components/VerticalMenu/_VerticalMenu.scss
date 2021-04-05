@@ -1,0 +1,35 @@
+.VerticalMenu {
+    .VerticalMenu__menu {
+        background: black;
+        padding: $m-size 0;
+        @include calculatedHeight();
+
+        .VerticalMenu__menu__menu-item {
+            margin: 0;
+            padding-left: 1.2rem !important;
+
+            &.ant-menu-item-selected {
+                background-color: #262626;
+                border-left: 2px solid $light-green;
+            }
+
+            &.read-only {
+                cursor: none;
+                pointer-events: none;
+            }
+
+            .VerticalMenu__menu__menu-item__righthand-icon {
+                margin-top: 1.4rem;
+                float: right;
+            }
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            /* Set the hr color */
+            color: $hr-gray; /* old IE */
+            background-color: $hr-gray; /* Modern Browsers */
+        }
+    }
+}

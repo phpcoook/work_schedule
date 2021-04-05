@@ -1,0 +1,85 @@
+.Schedule__Filter{
+    height: 56px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-bottom: #00000026 1px solid;
+    padding: 0px 16px;
+
+    .ant-btn .anticon-caret-down {
+        margin-left: 8px !important;
+    }
+
+    .ant-btn:hover, .ant-btn:focus {
+        color: rgba(0, 0, 0, 0.85);
+        background: #fff;
+        border-color: #d9d9d9;
+    }
+
+    h4{
+        margin: 0;
+        font: normal normal 600 14px/19px Open Sans;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+
+    .anticon{
+        font-size: 12px;
+    }
+
+    .controls  {
+        button:first-child, button:last-child {
+            border-radius: 4px;
+            width: 32px;
+            height: 32px
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            right: 10px;
+        }
+    }
+
+    .dropDown{
+        width: 142px;
+        height: 32px;
+        margin: 0px 8px;
+        border-radius:4px
+    }
+
+    .defaultSchedule{
+        > div{
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #00000026;
+            border-radius: 4px;
+            width:158px;
+            height: 32px;
+            padding: 6px 8px;
+            font: normal normal normal 14px/19px Open Sans;
+            letter-spacing: 0px;
+            color: #000000;
+            float: right;
+
+            .icon{
+                position: relative;
+                bottom: 2px;
+            }
+
+            .text{
+                position: relative;
+                bottom: 1px;
+            }
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+    }
+}
+
+.Schedule__Filter .ant-btn:focus {
+    border: 1px solid #3FA9FF !important;
+}
